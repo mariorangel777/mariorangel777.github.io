@@ -44,10 +44,11 @@
           <a class="nav-link disabled" href="#">Disabled</a>
         </li>
       </ul>
-      <form class="form-inline mt-2 mt-md-0">
+<!----      <form class="form-inline mt-2 mt-md-0">
         <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
+    -->
     </div>
   </nav>
 </header>
@@ -62,12 +63,12 @@
     
 
     <div class="carousel-inner">
-      <div class="carousel-item" data-interval="10000">
 
-        <svg xmlns="http://www.w3.org/2000/svg" class="bd-placeholder-img" role="img" preserveAspectRatio="xMidYMid slice" focusable="false" width="100%" height="100%">
+      <div class="carousel-item" data-interval="10000">
+      <!---  <svg xmlns="http://www.w3.org/2000/svg" class="bd-placeholder-img" role="img" preserveAspectRatio="none" focusable="false" width="100%" height="100%">
           <rect fill="#777" width="100%" height="100%" />
-        </svg>
-        <img src="mixer.jpg" alt="Diplomado en PM">
+        </svg>-->
+        <img src="mixer.jpg" alt="Diplomado en PM" class="d-block w-100 h-100" style="width: 100%;height: 120%;">
         <div class="container">
           <div class="carousel-caption text-left">
             <h1>Diplomado en Project Management</h1>
@@ -77,13 +78,12 @@
         </div>
       </div>
 
+
+
       <div class="carousel-item active" data-interval="10000">
-         
-         <svg xmlns="http://www.w3.org/2000/svg" class="bd-placeholder-img" role="img" preserveAspectRatio="xMidYMid slice" focusable="false" width="100%" height="100%">
-          <rect fill="#777" width="100%" height="100%" /></svg>
-
-         <img src="mixer.jpg" alt="Overwatch" class="d-block w-100" style="width:100%;height:100%;">
-
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" class="bd-placeholder-img" role="img" preserveAspectRatio="none" focusable="false" width="100%" height="120%">
+          <rect fill="#777" width="100%" height="100%" /></svg>-->
+         <img src="mixer.jpg" alt="Agile" class="d-block w-100" style="width:100%;height:100%;">
         <div class="container">
           <div class="carousel-caption">
             <h1>Conocimiento en el Marco de Trabajo Ágil, SCRUM</h1>
@@ -93,12 +93,10 @@
         </div>
       </div>
 
-      <div class="carousel-item " data-interval="10000">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" class="bd-placeholder-img" role="img" preserveAspectRatio="xMidYMid slice" focusable="false" width="100%" height="100%">
-          <rect fill="#777" width="100%" height="100%" /></svg>
-         <img src="mixer.jpg" alt="Overwatch" class="d-block w-100" style="width:100%;height:100%;">
 
+
+      <div class="carousel-item " data-interval="10000">
+         <img src="mixer.jpg" alt="Overwatch" class="d-block w-100 h-100" style="width:100%;height:120%;">
         <div class="container">
           <div class="carousel-caption text-right">
             <h1>Conocimiento en lenguajes de Front-End</h1>
@@ -107,17 +105,18 @@
           </div>
         </div>
       </div>
+
     </div>
 
 
     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
+      <span class="sr-only">Anterior</span>
     </a>
 
     <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
+      <span class="sr-only">Próximo</span>
     </a>
   </div>
 
@@ -142,10 +141,14 @@
         
         <svg xmlns="http://www.w3.org/2000/svg" class="bd-placeholder-img rounded-circle" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" width="140" height="140"><title>Placeholder</title><rect fill="#CF5CCF" width="100%" height="100%" /><text fill="#CF5CCF" x="50%" y="50%" dy="0.3em">140x140</text></svg>
 
-        <h2>Overwatch México</h2>
-        <p>Actualmente soy orgullosamente parte de Overwatch México, voy para dos años dentro de la comunidad y un año de ser staff, gracias a esto, recientemente pude conocer a otros miembros y nos volvimos grandes amigos.</p>
+        <h2>También Back End</h2>
+        <p>Con lenguajes como SQL, php y Javascript, también poseo conocimientos para poder
+          ofrecer un trabajo mejor cuidado y pensado para ambas necesidades.
+        </p>
         <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
+      
+      
       <div class="col-lg-4">
         
         <svg xmlns="http://www.w3.org/2000/svg" class="bd-placeholder-img rounded-circle" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" width="140" height="140"><title>Placeholder</title><rect fill="#777" width="100%" height="100%" /><text fill="#777" x="50%" y="50%" dy="0.3em">140x140</text></svg>
@@ -154,6 +157,7 @@
         <p>Me encanta cumplir con lo que se me pide, si se me permite con un extra de mi trabajo, así que me gusta que sean sinceros con que puedo y no puedo hacer en mi rol de trabajo, así podemos entendernos y sea un ganar-ganar</p>
         <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
+
     </div><!-- /.row -->
 
 
@@ -163,13 +167,14 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">Es pequeño pero hermoso. <span class="text-muted"><br>Y es dónde todo pasa.</span></h2>
-        <p class="lead">Presumido o no, mucho o poco, esto es lo que he logrado juntar a lo largo de los años, habla todo de mí pues es donde paso gran parte del poco tiempo que paso en Stream.</p>
+        <h2 class="featurette-heading">Diplomado en Prject Management <span class="text-muted"><br>Y también un poco de Scrum</span></h2>
+        <p class="lead">El diplomado fue basado en el PMBOK, experiencias de los profesores y muchas actividades. 
+          El scrum lo aprendí mediante una materia en la carrera y estudio propio.</p>
       </div>
       <div class="col-md-5">
 
         <!--<svg xmlns="http://www.w3.org/2000/svg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false" width="500" height="500"><title>Placeholder</title><rect fill="#eee" width="100%" height="100%" /><text fill="#aaa" x="50%" y="50%" dy="0.3em">500x500</text></svg>-->
-		<img src="Pimiento.JPG" alt="Diplomado" style="height:800px;width: 450px;border-radius: 55px;">
+		<img src="Pimiento.JPG" alt="Diplomado" style="height:80%x;width: 80%;border-radius: 55px;">
       </div>
     </div>
 
@@ -178,12 +183,15 @@
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">Ser mesero, <span class="text-muted"><br>Una gran experiencia.</span></h2>
-        <p class="lead">Fui mesero durante 4 años, me sirvió para aprender a comunicarme y tener empatía con las personas, esta f<oo fue la de mi último sevicio en Diciembre de 2019./p>
+        <p class="lead">Fui mesero durante 4 años, 
+          me sirvió para aprender a comunicarme y 
+          tener empatía con las personas, esta foto
+           fue la de mi último sevicio en Diciembre de 2019.</p>
       </div>
       <div class="col-md-5 order-md-1">
 
         <!--<svg xmlns="http://www.w3.org/2000/svg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false" width="500" height="500"><title>Placeholder</title><rect fill="#eee" width="100%" height="100%" /><text fill="#aaa" x="50%" y="50%" dy="0.3em">500x500</text></svg> -->
-		<img src="Ultimo.JPG" alt="Mesero" style="height:350px;width: 700px;border-radius: 50px;">
+		<img src="Ultimo.JPG" alt="Mesero" style="height:80%;width: 90%;border-radius: 50px;">
       </div>
     </div>
 
@@ -191,14 +199,14 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">Y por último, es dónde nos veremos tu y yo <span class="text-muted">Snapilardo bello.</span></h2>
+        <h2 class="featurette-heading">Y por último, un pequeño hobbie <span class="text-muted"><br>Salir a conocer lugares.</span></h2>
         <p class="lead">Una pequeña ventana en la que vivirás de todo, ¡estás invitado a venir!</p>
       </div>
       <div class="col-md-5">
 
       <!--  <svg xmlns="http://www.w3.org/2000/svg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false" width="500" height="500"><title>Placeholder</title><rect fill="#eee" width="100%" height="100%" /><text fill="#aaa" x="50%" y="50%" dy="0.3em">500x500</text></svg>
       -->
-      <img src="Castillo.jpg" alt="Six Flags" style="height:900px;width: 550px;border-radius: 50px;">
+      <img src="Castillo.jpg" alt="Six Flags" style="height:90%;width: 70%;border-radius: 50px;">
 
       </div>
     </div>

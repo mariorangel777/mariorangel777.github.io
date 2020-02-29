@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="bootstrap.min.css" type="text/css"> 
+    <link rel="stylesheet" href="carousel.css" type="text/css"> 
 
     <title>Creado con Bootstrap</title>
 
@@ -20,6 +23,9 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <script src="saludo.js"></script>
+               </li>
               <li class="nav-item active">
                 <a class="nav-link" href="">Mi mercadito<span class="sr-only">(current)</span></a>
               </li>
@@ -32,6 +38,13 @@
               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
           -->
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick" />
+            <input type="hidden" name="hosted_button_id" value="JKSEJJ4UYCCS8" />
+            <input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donar con el botón PayPal" />
+            <img alt="" border="0" src="https://www.paypal.com/es_MX/i/scr/pixel.gif" width="1" height="1" />
+            </form>
+            
           </div>
         </nav>
     </header>
@@ -41,9 +54,9 @@
           <div class="carousel-item active">
             <img class="d-block w-100 h-60" src="tienda.JPG" alt="Mi tienda, tu lugar."  height="600">
             <div class="container">
-                <div class="carousel-caption bg-secondary">
+                <div class="carousel-caption bg-secondary" style="color: whitesmoke; bottom: 12rem;">
                   <h1>Tu tienda, Mi Mercadito</h1>
-                  <p>Con el más extenso surtido, contamos con los productos líderes en el mercado. </p>
+                  <p>Con el más extenso surtido de productos líderes en el mercado. </p>
                   
                 </div>
               </div>  
@@ -52,10 +65,40 @@
 
         </div>
     </div>
+    <div class="container marketing">
 
-
-   <!-- <h1>Haz el puto diseño a mano >:V es una TIENDA</h1>-->
-
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+  
+        
+        <svg xmlns="http://www.w3.org/2000/svg" class="bd-placeholder-img rounded-circle" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" width="140" height="140"><title>Placeholder</title><rect fill="#777" width="100%" height="100%" /><text fill="#777" x="50%" y="50%" dy="0.3em">140x140</text></svg>
+  
+          <h2>Aqui va la coca we</h2>
+          <p>Una descripcion asi bien chida de la coca</p>
+          <p><a class="btn btn-secondary" href="otro.html" role="button">También tengo una tienda! &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" class="bd-placeholder-img rounded-circle" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" width="140" height="140"><title>Placeholder</title><rect fill="#CF5CCF" width="100%" height="100%" /><text fill="#CF5CCF" x="50%" y="50%" dy="0.3em">140x140</text></svg>
+  
+          <h2>Aqui el bombin</h2>
+          <p>El pan bimbo rifaaa
+          </p>
+          <p><a class="btn btn-secondary" href="back.html" role="button">Más acerca del Back End &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        
+        
+        <div class="col-lg-4">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" class="bd-placeholder-img rounded-circle" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" width="140" height="140"><title>Placeholder</title><rect fill="#777" width="100%" height="100%" /><text fill="#777" x="50%" y="50%" dy="0.3em">140x140</text></svg>
+  
+          <h2>Sabritas papaw</h2>
+          <p>Sabritas FTW</p>
+          
+        </div><!-- /.col-lg-4 -->
+  
+      </div><!-- /.row -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
